@@ -5,7 +5,5 @@ function filterEvenNumbers (numbers: number[]): number[]{
 }
 // console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]))
 
-// Problem 2:
-
 
 
