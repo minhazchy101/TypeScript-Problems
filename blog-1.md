@@ -128,25 +128,8 @@ The `unknown` type is safer because:
 - It reduces runtime errors
 - It keeps TypeScript’s type safety active
 
-`unknown` is especially useful when handling:
-
-- API responses
-- User input
-- External data
-
 ---
 
-# Difference Between `any` and `unknown`
-
-| Feature | `any` | `unknown` |
-|---|---|---|
-| Stores any value | ✅ | ✅ |
-| Type safety | ❌ No | ✅ Yes |
-| Allows unsafe operations | ✅ | ❌ |
-| Requires type checking | ❌ | ✅ |
-| Safer option | ❌ | ✅ |
-
----
 
 # Conclusion
 
