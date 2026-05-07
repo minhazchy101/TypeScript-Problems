@@ -12,5 +12,11 @@ function reverseString(input: string): string{
 // console.log(reverseString("typescript"))
 
 
+// Problem 3:
+type StringOrNumber = string | number
 
-
+ function checkType(input: StringOrNumber): StringOrNumber {
+    if(typeof input === 'string') return "String";
+    else return "Number";
+ }
+console.log(checkType(78))
