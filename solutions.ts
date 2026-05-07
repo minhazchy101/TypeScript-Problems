@@ -5,5 +5,12 @@ function filterEvenNumbers (numbers: number[]): number[]{
 }
 // console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]))
 
+// Problem 2:
+function reverseString(input: string): string{
+    return input.split('').reverse().join('')
+}
+// console.log(reverseString("typescript"))
+
+
 
 
