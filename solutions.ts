@@ -13,10 +13,18 @@ function reverseString(input: string): string{
 
 
 // Problem 3:
-type StringOrNumber = string | number
+type StringOrNumber = string | number 
 
  function checkType(input: StringOrNumber): StringOrNumber {
     if(typeof input === 'string') return "String";
     else return "Number";
  }
-console.log(checkType(78))
+// console.log(checkType(78))
+
+//Problem 4:
+const getProperty = <T, K extends keyof T>(obj: T, key: K)=>{
+     return obj[key]; 
+    }
+const user = { id: 1, name: "John Doe", age: 21 };
+
+// console.log(getProperty(user, "name"));
